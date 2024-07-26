@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+a {
+    float: right;
+    color: blue;
+    font-size: medium;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+
+ul {
+    text-align: right;
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li {
+    display: inline-block;
+}

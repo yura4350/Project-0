@@ -44,7 +44,7 @@ ul li {
 .advanced-search-form input[type="text"] {
     flex: 1;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .advanced-search-form input[type="submit"] {
@@ -54,7 +54,7 @@ ul li {
     text-decoration-color: white;
     text-emphasis-color: white;
     color: white;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .search-form {
@@ -84,6 +84,7 @@ ul li {
 .search-form input[type="submit"] {
     width: 100%;
     padding: 10px;
+    margin: 10px;
     box-sizing: border-box;
-    border-radius: 2px;
+    border-radius: 4px;
 }

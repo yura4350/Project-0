@@ -1,5 +1,5 @@
 h1 {
-    color: blue;
+    color: black;
     text-align: center;
 }
 
@@ -15,7 +15,6 @@ a:hover {
     color: black;
 }
 
-
 ul {
     text-align: right;
     list-style: none;
@@ -24,4 +23,67 @@ ul {
 
 ul li {
     display: inline-block;
+}
+
+.advanced-search-form {
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.advanced-search-form div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.advanced-search-form label {
+    width: 180px; 
+}
+
+.advanced-search-form input[type="text"] {
+    flex: 1;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.advanced-search-form input[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: blue;
+    text-decoration-color: white;
+    text-emphasis-color: white;
+    color: white;
+    border-radius: 2px;
+}
+
+.search-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.search-form div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.search-form label {
+    width: 180px; 
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.search-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
 }
